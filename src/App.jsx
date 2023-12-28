@@ -5,7 +5,9 @@
 // import UseEffectExample from './components/counter/UseEffectExample'
 // import UseReducerExam from './components/counter/UseReducerExam'
 
-import TodoList from "./components/Todo/TodoList"
+import Weather from "./components/weather/Weather"
+
+// import TodoList from "./components/Todo/TodoList"
 
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
       {/* <UseReducerExam /> */}
       {/* <UseEffectExample /> */}
       {/* <Resturants/> */}
-      <TodoList/>
+      {/* <TodoList/> */}
+      <Weather/>
     </>
   )
 }
