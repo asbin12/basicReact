@@ -5,13 +5,14 @@
 // import UseEffectExample from './components/counter/UseEffectExample'
 // import UseReducerExam from './components/counter/UseReducerExam'
 
+// import { useState } from "react";
 import Weather from "./components/weather/Weather"
+import './components/weather/navbar.css'
 
 // import TodoList from "./components/Todo/TodoList"
 
 
 function App() {
- 
   return (
     <>
       {/* <Counter/> */}
@@ -19,7 +20,8 @@ function App() {
       {/* <UseEffectExample /> */}
       {/* <Resturants/> */}
       {/* <TodoList/> */}
-      <Weather/>
+      <Weather />
+   
     </>
   )
 }
