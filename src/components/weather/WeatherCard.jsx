@@ -34,7 +34,7 @@ const WeatherCard = ({ tempInfo }) => {
   useEffect(() => {
     if (weathermood) {
       switch (weathermood) {
-        case "Clouds": setWeatherState("wi-day-cloudy");
+        case "Clouds": setWeatherState("wi-cloudy");
           break;
         case "Rain": setWeatherState("wi-rain");
           break;

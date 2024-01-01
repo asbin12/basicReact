@@ -289,3 +289,7 @@ body {
   flex-direction: column;
   gap: 25px;
 }
+
+.page__loader {
+  margin: 100px auto;
+}

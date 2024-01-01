@@ -7,6 +7,7 @@
 
 // import { useState } from "react";
 import Weather from "./components/weather/Weather"
+// import FooterCart from './components/weather/FooterCart'
 import './components/weather/navbar.css'
 
 // import TodoList from "./components/Todo/TodoList"
@@ -21,6 +22,7 @@ function App() {
       {/* <Resturants/> */}
       {/* <TodoList/> */}
       <Weather />
+      {/* <FooterCart/> */}
    
     </>
   )
